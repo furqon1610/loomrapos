@@ -1,0 +1,11 @@
+<!-- Supabase Dashboard -> Authentication -> Emails -> Reset Password -> tempel isi berkas ini.
+     Subject yang disarankan: Reset password LoomraPOS -->
+<h2>Reset password LoomraPOS</h2>
+<p>Ada permintaan untuk membuat password baru bagi akunmu. Klik tombol di bawah untuk melanjutkan:</p>
+<p>
+  <a href="{{ .RedirectTo }}?token_hash={{ .TokenHash }}&type=recovery"
+     style="display:inline-block;background:#3385c8;color:#ffffff;padding:12px 24px;border-radius:10px;text-decoration:none;font-weight:600;">
+    Buat password baru
+  </a>
+</p>
+<p>Tautan ini berlaku sebentar dan hanya bisa dipakai sekali. Kalau kamu tidak meminta reset password, abaikan email ini; passwordmu tidak berubah.</p>
